@@ -4,7 +4,7 @@
 .ui-listview-filter{margin: 10px 0px 10px 0px;}
 .ui-footer{margin-top: -10px}
 .ui-page{padding-bottom: 0px !important;}
-a{font-size:75%; }
+a{font-size:75%; white-space:normal !important}
 .headerDiv {
 	text-align: center;
 	vertical-align: middle;
