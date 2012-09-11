@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id 	= "org.apawood.productReports"
+	versionCode = "1"
+	version = "1.0.0">
+
+<name>APA Product Reports</name>
+
+<description>Get the latest APA Product Reports on your mobile device</description>
+
+<author href = "https://www.apawood.org" email="melissa.dewalt@apawood.org">APA - The Engineered Wood Association</author>
+
+<icon src="APA_logo_36px.png"/>
+
+<!--Android Specific Preferences -->
+<!--<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> -->
+
+<gap:splash src="splash.png" />
+
+</widget>
