@@ -11,7 +11,7 @@
 
 <author href = "https://www.apawood.org" email="melissa.dewalt@apawood.org">APA - The Engineered Wood Association</author>
 
-<icon src="icon.png"/>
+<icon src="img/icon.png"/>
 
 <!--Android Specific Preferences -->
 <!--<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
@@ -19,6 +19,6 @@
 <icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
 <icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> -->
 
-<gap:splash src="splash.png" />
+<gap:splash src="img/splash.png" />
 
 </widget>
