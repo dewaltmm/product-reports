@@ -10,7 +10,9 @@ a{font-size:75%; }
 	vertical-align: middle;
 	white-space: normal;
 }
-
+.ui-li-has-thumb .ui-btn-inner {
+    min-height: 30px;
+}
 
 /*styling for footer icons*/
 .nav-glyphish .ui-btn .ui-btn-inner { padding-top: 35px !important; }
