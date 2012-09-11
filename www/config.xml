@@ -20,5 +20,8 @@
 <icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> -->
 
 <gap:splash src="img/splash.png" />
+<gap:plugin name="ChildBrowser" /> <!-- latest release -->
+
+<preference name="permissions" value="none"/>
 
 </widget>
