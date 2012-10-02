@@ -7,8 +7,6 @@
 
 <name>APA Product Reports</name>
 
-<gap:plugin name="ChildBrowser" version="~3"/> <!-- for Cordova (1.9.0+)-->
-
 <description>Get the latest APA Product Reports on your mobile device</description>
 
 <author href = "https://www.apawood.org" email="melissa.dewalt@apawood.org">APA - The Engineered Wood Association</author>
