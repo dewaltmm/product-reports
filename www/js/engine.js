@@ -7,14 +7,10 @@
 		this.url = $.trim(url);	
 	}
 	
-	$("#home").click(function(){
-		showWebPage('http://www.apawood.org' , {showLocationBar: true});	
-	});
-	
 	//on document load, do these things...
 	$(document).ready(function(){
-		//jquery ajax request to apa server to get ProductReports.txt from 08-21-2012
-		$.get('ProductReports08-21-2012.txt', function(data){
+		//jquery ajax request to apa server to get most recent ProductReportsDD-MM-YYYY.txt 
+		$.get('ProductReports10-09-2012.txt', function(data){
 		   handle(data);
 		   });
      });
