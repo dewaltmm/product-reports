@@ -34,7 +34,7 @@ function ProductReport(series,title,url)
 	//uses jQuery Mobile listview and data-filter
 	function displayArray(prArray){
 		var links = '<li data-role="list-divider">' + prArray[0].series + ' Series</li>';
-        links+="<li><a onClick=window.plugins.childBrowser.openExternal('"+prArray[0].url+"')>"+prArray[0].title+"</a></li>";
+        links+="<li><a onClick=window.plugins.childBrowser.openExternal('"+prArray[0].url+", usePhoneGap')>"+prArray[0].title+"</a></li>";
 		for(i=1;i<prArray.length;i++){
 			if(prArray[i].series!=prArray[i-1].series){
 				links += '<li data-role="list-divider">' + prArray[i].series + ' Series</li>';
