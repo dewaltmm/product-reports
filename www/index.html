@@ -35,16 +35,18 @@
     
     <!--------------------------------------FOOTER----------------------------------------------->
 <div data-role="footer" data-position="fixed" class="nav-glyphish">
-<div class = "ui-body-c">
-<div data-role="navbar" class="nav-glyphish">
-	<ul>
-    <li><a href="tel:2536207400" data-role="button" id="phone" data-icon="custom">Call APA</a></li>
-    <li><a href="http://www.apawood.org/" rel="external" data-role="button" id="home" data-icon="custom">Full APA Site</a></li>
-    <li><a href="http://www.apawood.org/mobileContact.cfm" rel="external" id="email" data-icon="custom">Contact</a></li>
-    </ul>
-</div><!-- end navbar div-->
-</div>
-</div> <!----END FOOTER-->
+                <div class = "ui-body-c">
+                    <div data-role="navbar" class="nav-glyphish">
+                        <ul>
+                            <li><a href="tel:2536207400" data-role="button" id="phone" data-icon="custom">Call APA</a></li>
+                            
+                            <li><a href="#" id="home" data-icon="custom" data-role="button" rel="external" onclick="window.plugins.childBrowser.showWebPage('http://www.apawood.org');">APA Home</a></li>
+                            
+                            <li><a href="#" rel="external" id="email" data-icon="custom" onClick="window.plugins.childBrowser.showWebPage('http://www.apawood.org/mobileContact.cfm');">Contact</a></li>
+                        </ul>
+                    </div><!-- end navbar div-->
+                </div>
+            </div> <!----END FOOTER-->
 </div><!-- /content -->
 </div><!-- /page -->
 
