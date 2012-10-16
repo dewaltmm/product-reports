@@ -31,10 +31,7 @@
     <gap:splash src="res/screen/android_xhdpi_portrait.png"      width="720"  height="1280" gap:platform="android" />
 -->
 
-
 <gap:splash src="img/splash.png" />
-<gap:plugin name="ChildBrowser" /> <!-- latest release -->
-
 <preference name="permissions" value="none"/>
 
 </widget>
