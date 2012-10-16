@@ -34,12 +34,12 @@ function ProductReport(series,title,url)
 	//uses jQuery Mobile listview and data-filter
 	function displayArray(prArray){
 		var links = '<li data-role="list-divider">' + prArray[0].series + ' Series</li>';
-        links+="<li><a onClick=cb.showWebPage('"+prArray[0].url+"')>"+prArray[0].title+"</a></li>";
+        links+="<li><a onClick=window.plugins.childBrowser.showWebPage('"+prArray[0].url+"')>"+prArray[0].title+"</a></li>";
 		for(i=1;i<prArray.length;i++){
 			if(prArray[i].series!=prArray[i-1].series){
 				links += '<li data-role="list-divider">' + prArray[i].series + ' Series</li>';
 				}
-			links += "<li><a onclick=cb.showWebPage('"+prArray[i].url+"')>"+prArray[i].title+"</a></li>";
+			links += "<li><a onclick=window.plugins.childBrowser.showWebPage('"+prArray[i].url+"')>"+prArray[i].title+"</a></li>";
 		}
 		$('#link-list-container').html('<ul id="link-list" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search for Product Report">'+links+'</ul>');
 		$("#link-list").listview();
