@@ -1,26 +1,19 @@
 // JavaScript Document
-function onBodyLoad()
-{
-    document.addEventListener("deviceready", onDeviceReady, false);
-}
-
-function onDeviceReady(){
-    //jquery ajax request to apa server to get most recent ProductReportsMM-DD-YYYY.txt
-    $.get('ProductReports10-09-2012.txt', function(data){
-          handle(data);
-          });
-          
-   	var root = this;
-	cb = window.plugins.childBrowser;
-}
-
 //Constructor for ProductReport object
 function ProductReport(series,title,url)
 {
-    this.series = series;
-    this.title = $.trim(title);
-    this.url = $.trim(url);
+		this.series = series;
+		this.title = $.trim(title);
+		this.url = $.trim(url);	
 }
+
+	//on document load, do these things...
+	$(document).ready(function(){
+		//jquery ajax request to apa server to get most recent ProductReportsDD-MM-YYYY.txt 
+		$.get('ProductReports10-09-2012.txt', function(data){
+		   handle(data);
+		   });
+     });
 
 	 //function to parse '|' delimited data from $.get()
 	 function handle(data){
