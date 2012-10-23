@@ -20,16 +20,11 @@
 <icon src="img/icons/mdpi.png" gap:platform="android" gap:density="mdpi" />
 <icon src="img/icons/hdpi.png" gap:platform="android" gap:density="hdpi" />
 <icon src="img/icons/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> 
-<!--
+
     <gap:splash src="res/screen/android_hdpi_landscape.png"      width="800"  height="480"  gap:platform="android" />
-    <gap:splash src="res/screen/android_hdpi_portrait.png"       width="480"  height="800"  gap:platform="android" />
     <gap:splash src="res/screen/android_ldpi_landscape.png"      width="320"  height="200"  gap:platform="android" />
-    <gap:splash src="res/screen/android_ldpi_portrait.png"       width="200"  height="320"  gap:platform="android" />
     <gap:splash src="res/screen/android_mdpi_landscape.png"      width="480"  height="320"  gap:platform="android" />
-    <gap:splash src="res/screen/android_mdpi_portrait.png"       width="320"  height="480"  gap:platform="android" />
     <gap:splash src="res/screen/android_xhdpi_landscape.png"     width="1280" height="720"  gap:platform="android" />
-    <gap:splash src="res/screen/android_xhdpi_portrait.png"      width="720"  height="1280" gap:platform="android" />
--->
 
 <gap:splash src="img/splash.png" />
 <preference name="permissions" value="none"/>
