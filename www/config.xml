@@ -14,6 +14,7 @@
 <author href = "https://www.apawood.org" email="melissa.dewalt@apawood.org">APA - The Engineered Wood Association</author>
 
 <icon src="img/icons/icon.png"/>
+<gap:splash src="img/splash.png" />
 
 <!--Android Specific Preferences -->
 <icon src="img/icons/ldpi.png" gap:platform="android" gap:density="ldpi" />
@@ -21,12 +22,11 @@
 <icon src="img/icons/hdpi.png" gap:platform="android" gap:density="hdpi" />
 <icon src="img/icons/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> 
 
-    <gap:splash src="res/screen/android_hdpi_landscape.png"      width="800"  height="480"  gap:platform="android" />
-    <gap:splash src="res/screen/android_ldpi_landscape.png"      width="320"  height="200"  gap:platform="android" />
-    <gap:splash src="res/screen/android_mdpi_landscape.png"      width="480"  height="320"  gap:platform="android" />
-    <gap:splash src="res/screen/android_xhdpi_landscape.png"     width="1280" height="720"  gap:platform="android" />
+    <gap:splash src="res/screen/android_hdpi_landscape.png" width="800"  height="480"  gap:platform="android" />
+    <gap:splash src="res/screen/android_ldpi_landscape.png" width="320"  height="200"  gap:platform="android" />
+    <gap:splash src="res/screen/android_mdpi_landscape.png" width="480"  height="320"  gap:platform="android" />
+    <gap:splash src="res/screen/android_xhdpi_landscape.png" width="1280" height="720"  gap:platform="android" />
 
-<gap:splash src="img/splash.png" />
 <preference name="permissions" value="none"/>
 
 </widget>
