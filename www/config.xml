@@ -14,7 +14,7 @@
 <author href = "https://www.apawood.org" email="melissa.dewalt@apawood.org">APA - The Engineered Wood Association</author>
 
 <icon src="img/icons/icon.png"/>
-<gap:splash src="img/splash.png" width="334" height="480"/>
+<gap:splash src="splash.png" width="334" height="480"/>
 
 <!--Android Specific Preferences -->
 <preference name="android-minSdkVersion" value="8"/>
