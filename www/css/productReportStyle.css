@@ -1,9 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 
-.copyright{padding: 10px;}
-.copyright h5{font-size:75%}
-.copyright p{font-size:75%; text-align:justify;}
+.terms{padding-left: 10px; padding-right:10px; padding-top:10px;}
+.terms h5{font-size:75%}
+.terms p{font-size:75%; text-align:justify;}
+
+.copyright{padding-left:10px; padding-right:10px;}
+.copyright p{font-size:75%; text-align:center;}
 
 .logoHeader {vertical-align:text-bottom;}
 .ui-listview-filter{margin: 10px 0px 10px 0px;}
