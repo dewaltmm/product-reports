@@ -10,7 +10,7 @@ function ProductReport(series,title,url)
 	//on document load, do these things...
 	$(document).ready(function(){
 		//jquery ajax request to apa server to get most recent ProductReportsDD-MM-YYYY.txt 
-		$.get('ProductReports10-09-2012.txt', function(data){
+		$.get('http://www.apawood.org/ProductReports.txt', function(data){
 		   handle(data);
 		   });
      });
