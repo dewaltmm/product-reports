@@ -14,7 +14,7 @@ APA at Your Service. For additional information on engineered wood products and 
 
 <preference name="android-minSdkVersion" value="8"/>
 <preference name="permissions" value="none"/>
-<preference name="phonegap-version" value="2.2.0" />
+<preference name="phonegap-version" value="2.0.0" />
 <icon src="img/icons/icon.png"/>
 <gap:splash src="splash.png" width="334" height="480"/>
 
