@@ -11,8 +11,8 @@ function ProductReport(series,title,url)
 	$(document).ready(function(){
 		//jquery ajax request to apa server to get most recent ProductReportsDD-MM-YYYY.txt 
 		$.get('http://www.apawood.org/ProductReports.txt', function(data){
-		   handle(data);
-		   });
+		  handle(data);
+		  });
      });
 
 	 //function to parse '|' delimited data from $.get()
@@ -33,15 +33,21 @@ function ProductReport(series,title,url)
 	//create a jQuery listview with $("#link-list").listview(); 
 	//uses jQuery Mobile listview and data-filter
 	function displayArray(prArray){
-		var links = '<li data-role="list-divider">' + prArray[0].series + ' Series</li>';
-        links+="<li><a href='"+prArray[0].url+"'>"+prArray[0].title+"</a></li>";
+		//declare the placeholder for search area
+		var placeholder = "Search for Product Report";
+		//links is an html list with jquery mobile markups for dividers
+		//initalize links variable with firs tlist divider and the first
+		//product report, then loop prArray to finish building links variable
+		var links = "<li data-role='list-divider'>" + prArray[0].series + " Series</li><li><a href='"+prArray[0].url+"'>"+prArray[0].title+"</a></li>";
 		for(i=1;i<prArray.length;i++){
 			if(prArray[i].series!=prArray[i-1].series){
-				links += '<li data-role="list-divider">' + prArray[i].series + ' Series</li>';
+				links += "<li data-role='list-divider'>" + prArray[i].series + " Series</li>";
 				}
 			links += "<li><a href='"+prArray[i].url+"'>"+prArray[i].title+"</a></li>";
 		}
-		$('#link-list-container').html('<ul id="link-list" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search for Product Report">'+links+'</ul>');
+		//set content of link-list-container div to contain a list with populated links variable, 
+		$('#link-list-container').html('<ul id="link-list" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="'+placeholder+'">'+links+'</ul>');
+		//render link-list div as a jquery mobile listview
 		$("#link-list").listview();
 	}
 
